@@ -1,0 +1,21 @@
+{
+  "name": "xss-persistente-backend",
+  "version": "1.0.0",
+  "description": "Backend para XSS persistente - salva código malicioso em arquivo JSON para todos os usuários",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": [
+    "xss",
+    "persistent",
+    "security-test",
+    "educational"
+  ],
+  "author": "XSS Lab",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
